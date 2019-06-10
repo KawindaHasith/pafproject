@@ -1,0 +1,124 @@
+
+
+                  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Payment</title>
+    <link rel="icon" type="image/png" href="img/45332.png"/>
+    <!----botstrap css-->
+    <link rel="stylesheet" href="cs/bootstrap.min.css">
+    <!---main css-->
+    <link rel="stylesheet" href="./payment.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script type="text/javascript" src="validation.js"></script>
+    
+</head>
+<body class="bg-dark  ">
+    <style>
+        body{
+            font-family: 'Roboto Slab', Courier, monospace;
+         
+          } 
+        </style>
+
+<DIv  class="container-contact100">   
+     <div class="container">
+       <h1><div class=" text-center text-light hd" >EDIT PAYMENT</div></h1>
+         
+         <div class="row justify-content-center ">
+             
+                  <div class="col-md-8 ">
+         
+              <div class="flex-box">
+           
+           
+           
+          <form class="bg-light formss">
+
+          <div class="row">
+              <div class="col-md-6 mb-3">
+                  <label for="CardID">Payment ID</label>
+                  <input type="number" class="form-control allownumericwithoutdecimal" id="pid"  name="CardID"  placeholder="Enter PID" >
+                  <span id="cardidl" class="text-danger font-weight-bold"></span>
+                </div>
+                 
+
+                <div class="col-md-6 mb-3">
+                    <label for="OID">OID</label>
+                    <input type="number" class="form-control allownumericwithoutdecimal" id="oid" name="OID" placeholder="Enter OID" value="">
+                    <span id="oidl" class="text-danger font-weight-bold"></span>
+                </div>
+
+         
+        </div>
+
+               
+	                      <div class="mb-3">
+                        <label for="username">PAMOUNT</label>
+                        <div class="input-group">
+                          <div class="input-group-prepend"></div>
+                          </div>
+                          <input type="number" class="form-control allownumericwithdecimal" id="pamount" name="PAMOUNT" placeholder="Enter PAMOUNT" >
+                          <span id="pamountl" class= "text-danger font-weight-bold"></span>
+                        </div>
+                  
+              
+                      <div class="mb-3">
+                        <label for="email">PDATE </label>
+                        <input type="date" class="form-control" id="pdate" name="PDATE" placeholder="Enter PDATE" >
+                        <span id="pdatel" class="text-danger font-weight-bold"></span>
+                      </div>
+
+                                
+                      <div class="mb-3">
+                        <label for="Password">CID</label>
+                        <input type="number" class="form-control allownumericwithoutdecimal" id="cardid" name="PID" placeholder="Enter CID" >
+                        <span id="pidl" class="text-danger font-weight-bold"></span>
+                      </div>
+    
+                      <div class="mb-3 form-group">
+                        <label for="PSTATUS">PSTATUS</label>
+                        <div class="col-sm-4">
+                            <select class="form-control" id="pstatus">
+                              <option>Paid</option>
+                              <option>Unpaid</option>
+                            </select>          
+                            <span id="pstatusl" class="text-danger font-weight-bold" ></span>
+                            </div>
+                      
+                      
+                      </div>
+
+                    
+                        
+                          
+                             
+                         
+     
+                      <button  class="btn btn-primary" type="button" name="submit" id="submit">EDIT</button>
+                      <a href="index.html" class="btn btn-danger">Back</a>
+                         
+                      
+                   
+         
+    
+       </div>
+      </form>
+                  </div>
+         </div>
+     </div>
+    </div>
+
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="javascripts/edit.js"></script>
+
+
+</body>
+</html>
