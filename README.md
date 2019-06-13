@@ -5,8 +5,7 @@ Github link- https://github.com/AchinthaTM/SellNBuy
 
 ******Instructions to install and test the system******
 
-
-**PafClient folder contain frontend and SellNBuy folder contain backend of the system**
+*PafClient folder contain frontend and SellNBuy folder contain backend of the system*
 
 *Reequired tools
 
