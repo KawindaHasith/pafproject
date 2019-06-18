@@ -1,7 +1,7 @@
 # SellNBuy
 PAF Assignment
 
-Github link- https://github.com/AchinthaTM/SellNBuy
+Github link- https://github.com/KawindaHasith/pafproject
 
 ******Instructions to install and test the system******
 
